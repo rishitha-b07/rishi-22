@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for central alignment */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #eee;
+    padding: 40px 0;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+#skills li {
+    margin: 10px 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: white;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #007BFF;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
