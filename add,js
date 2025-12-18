@@ -1,0 +1,31 @@
+// Welcome message when page loads
+window.onload = function () {
+    alert("Welcome to B. Rishitha Reddy's Portfolio!");
+};
+
+// Smooth scroll for internal links (if you add navbar later)
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Skill highlight effect
+const skills = document.querySelectorAll("#skills li");
+
+skills.forEach(skill => {
+    skill.addEventListener("click", () => {
+        skill.style.backgroundColor = "#007BFF";
+        skill.style.color = "white";
+        skill.style.padding = "10px";
+        skill.style.borderRadius = "5px";
+    });
+});
+
+// Automatically update year in footer
+const footer = document.querySelector("footer p");
+const currentYear = new Date().getFullYear();
+footer.innerHTML = `&copy; ${currentYear} B. Rishitha Reddy. All rights reserved.`;
